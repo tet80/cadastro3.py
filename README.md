@@ -19,17 +19,8 @@ Exemplo de Código
 python
 Copiar
 Editar
-class Produto:
-    def __init__(self, nome, descricao, valor, disponivel):
-        self.nome = nome
-        self.descricao = descricao
-        self.valor = valor
-        self.disponivel = disponivel
 
-    def __repr__(self):
-        return f"{self.nome} - R${self.valor:.2f}"
-
-produtos = []
+produtos = 
 
 def cadastrar_produto():
     nome = input("Nome do produto: ")
